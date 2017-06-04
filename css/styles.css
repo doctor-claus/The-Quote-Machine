@@ -1,0 +1,54 @@
+body{
+	background-color: #16a085;
+}
+.quote-box{
+	background-color: white;
+	width: auto;
+	display: table;
+	margin: 15% auto auto auto;
+	border-radius: 5px;
+	width: 450px;
+	box-shadow: 10px 10px 30px;
+}
+.quote-text{
+	height: auto;
+	padding: 30px 30px 30px 30px;
+	font-family: "Dancing Script";
+	font-weight: 500;
+	font-size: 1.5em;
+}
+.quote-author{
+	padding-left: 200px;
+	padding-bottom: 30px;
+	font-family: "Dancing Script";
+	font-size: 1.2em;
+}
+.buttons{
+	width: 450px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+.btn{
+	position: relative;
+	margin-right: 25px;
+	color: white;
+}
+button span{
+  cursor: pointer;
+  transition: 0.5s;
+}
+button span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  padding-left: 5px;
+}
+
+button:hover span{
+  padding-right: 10px;
+}
+
+button:hover span:after{
+  opacity: 1;
+}
